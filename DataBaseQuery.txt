@@ -1,0 +1,13 @@
+Create database name - Employee . Get below Queries for listed questions
+
+	Write a query to fetch the EmpFname from the EmployeeInfo table in the upper case and use the ALIAS name as EmpName.
+Answer :- SELECT upper(Fname) AS EmpName FROM EmployeeInfo;
+
+	Write a query to fetch the number of employees working in the department ‘HR’.
+Answer :-select count(Department) from EmployeeInfo where Department = "HR";
+
+	Write a query to get the current date.
+Answer :- select current_timestamp();
+
+	Write a query to retrieve the first four characters of  EmpLname from the EmployeeInfo table.
+Answer :- SELECT SUBSTRING(Fname,1,4) FROM EmployeeInfo;
